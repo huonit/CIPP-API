@@ -27,4 +27,6 @@ jobs:
           app-name: 'cippkl5m6-proc'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0AD0F01823DD4EF38E4D6676C4A25F0B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6A401C2D679C40DD867028687E0F24D9 }}
+          sku: 'flexconsumption'
+        
